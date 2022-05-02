@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(20, 20, 20);
+}
+nav .menu{
+    list-style: none;
+    padding: 0%;
+    display: flex;
+margin-top: 0;}
+
+nav  .menu-link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding-left:1.2em;
+   }
+
+nav .menu-item{
+    width: 50%;
+    height: 40px;
+    background-color: rgb(255, 23, 23);
+    border: 1px solid black;
+    flex: 1;
+    padding: 8px;
+    }
+
+nav .menu-item:hover{
+    background-color: rgb(44, 44, 44);
+}
+
+nav .menu-item:nth-child(5){
+    box-shadow: 0px 5px 7px rgb(44, 44, 44);
+    background-color:rgb(44, 44, 44) ;
+}
+
+
+
+
+
+
+
+
+body{
+;
+
+ }
+h1{
+
+    color: red;
+}
+p{
+
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+img{
+display:inline
+;
+text-align: center;
+width: 13em;
+border-radius: 10px;
+}
